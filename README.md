@@ -12,13 +12,13 @@ If you find this repository useful, please consider **STARing** ⭐ this reposit
 **Disclaimer**: This repository is not meant to be a comprehensive list of all computer vision but rather a curated list of papers that I find interesting. I have left out many fundamental papers and focused on the more recent and interesting ones. If you are looking for a comprehensive list of papers, I think the above-mentioned repositories and other resources are a better fit!
 
 ## 📚 Table of Contents
-- [my-awesome-computer-vision   ](#my-awesome-computer-vision---)
+- [Awesome computer vision Papers   ](#awesome-computer-vision-papers---)
   - [✨ About](#-about)
   - [📚 Table of Contents](#-table-of-contents)
   - [3D Gaussians and its Variants](#3d-gaussians-and-its-variants)
   - [Human Pose Tracking / Human Pose Estimation](#human-pose-tracking--human-pose-estimation)
   - [4D Reconstruction](#4d-reconstruction)
-  - [Sparse View/ Uncalibrated / Distorion-free 3D Reconstruction](#sparse-view-uncalibrated--distorion-free-3d-reconstruction)
+  - [Robust, Calibration-free 3D Reconstruction](#robust-calibration-free-3d-reconstruction)
   - [VLLM](#vllm)
   - [Generative Models](#generative-models)
   - [3D Data Synthesis](#3d-data-synthesis)
@@ -56,17 +56,18 @@ with Temporal Gaussian Hierarchy", *SIGGRAPH Asia 2024 (TOG)*, [[Paper](https://
 ------------------------------
 
 
-## Sparse View/ Uncalibrated / Distorion-free 3D Reconstruction
+## Robust, Calibration-free 3D Reconstruction
 
 * **pixelSplat** : "pixelSplat: 3D Gaussian Splats from Image Pairs for Scalable Generalizable 3D Reconstruction", *CVPR 2024*. [[Paper](https://arxiv.org/pdf/2312.12337)] [[Webpage](https://davidcharatan.com/pixelsplat/)] [[Code](https://github.com/dcharatan/pixelsplat)]
 
 
 * **Splatt3R** : "Splatt3R: Zero-shot Gaussian Splatting from Uncalibrated Image Pairs", *arXiv Aug 2024*. [[Paper](https://arxiv.org/pdf/2408.13912)] [[Webpage](https://splatt3r.active.vision/)] [[Code](https://github.com/btsmart/splatt3r)]
 
-* **3DGUT** : "3DGUT: Enabling Distorted Cameras and Secondary Rays in Gaussian Splatting", *arXiv Dec 2024*. [[Paper](https://arxiv.org/pdf/2412.12507)] [[Webpage](https://research.nvidia.com/labs/toronto-ai/3DGUT/)]
+* **3DGUT** : "3DGUT: Enabling Distorted Cameras and Secondary Rays in Gaussian Splatting", *arXiv Dec 2024*. [[Paper](https://arxiv.org/pdf/2412.04463)] [[Webpage](https://mega-sam.github.io/)]
 
 * **FreeSplatter** : "FreeSplatter: Pose-free Gaussian Splatting for Sparse-view 3D Reconstruction", arXiv Dec 2024. [[Paper](https://arxiv.org/pdf/2412.09573)] [[Webpage](https://bluestyle97.github.io/projects/freesplatter/)] [[Code](https://github.com/TencentARC/FreeSplatter)]
 
+* **MegaSaM** :"Accurate, Fast and Robust Structure and Motion from Casual Dynamic Videos"
 
 ------------------------------
 
