@@ -1,4 +1,4 @@
-# my-awesome-computer-vision [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)[![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com) 
+# my-awesome-computer-vision [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)  [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com) 
 
 ## ✨ About
 
@@ -12,15 +12,16 @@ If you find this repository useful, please consider **STARing** ⭐ this reposit
 **Disclaimer**: This repository is not meant to be a comprehensive list of all computer vision but rather a curated list of papers that I find interesting. I have left out many fundamental papers and focused on the more recent and interesting ones. If you are looking for a comprehensive list of papers, I think the above-mentioned repositories and other resources are a better fit!
 
 ## 📚 Table of Contents
-- [my-awesome-computer-vision ](#my-awesome-computer-vision-)
+- [my-awesome-computer-vision   ](#my-awesome-computer-vision---)
   - [✨ About](#-about)
   - [📚 Table of Contents](#-table-of-contents)
   - [3D Gaussians and its Variants](#3d-gaussians-and-its-variants)
   - [Human Pose Tracking / Human Pose Estimation](#human-pose-tracking--human-pose-estimation)
   - [4D Reconstruction](#4d-reconstruction)
-  - [Uncalibrated / Distorion-free 3D Reconstruction](#uncalibrated--distorion-free-3d-reconstruction)
+  - [Sparse View/ Uncalibrated / Distorion-free 3D Reconstruction](#sparse-view-uncalibrated--distorion-free-3d-reconstruction)
   - [VLLM](#vllm)
   - [Generative Models](#generative-models)
+  - [3D Data Synthesis](#3d-data-synthesis)
 
 ## 3D Gaussians and its Variants
 
@@ -55,9 +56,16 @@ with Temporal Gaussian Hierarchy", *SIGGRAPH Asia 2024 (TOG)*, [[Paper](https://
 ------------------------------
 
 
-## Uncalibrated / Distorion-free 3D Reconstruction
+## Sparse View/ Uncalibrated / Distorion-free 3D Reconstruction
+
+* **pixelSplat** : "pixelSplat: 3D Gaussian Splats from Image Pairs for Scalable Generalizable 3D Reconstruction", *CVPR 2024*. [[Paper](https://arxiv.org/pdf/2312.12337)] [[Webpage](https://davidcharatan.com/pixelsplat/)] [[Code](https://github.com/dcharatan/pixelsplat)]
+
 
 * **Splatt3R** : "Splatt3R: Zero-shot Gaussian Splatting from Uncalibrated Image Pairs", *arXiv Aug 2024*. [[Paper](https://arxiv.org/pdf/2408.13912)] [[Webpage](https://splatt3r.active.vision/)] [[Code](https://github.com/btsmart/splatt3r)]
+
+* **3DGUT** : "3DGUT: Enabling Distorted Cameras and Secondary Rays in Gaussian Splatting"
+
+* **FreeSplatter** : "FreeSplatter: Pose-free Gaussian Splatting for Sparse-view 3D Reconstruction", arXiv Dec 2024. [[Paper](https://arxiv.org/pdf/2412.09573)] [[Webpage](https://bluestyle97.github.io/projects/freesplatter/)] [[Code](https://github.com/TencentARC/FreeSplatter)]
 
 
 ------------------------------
@@ -65,7 +73,7 @@ with Temporal Gaussian Hierarchy", *SIGGRAPH Asia 2024 (TOG)*, [[Paper](https://
 
 ## VLLM
 
-* **VSI-Bench** : "Thinking in Space:How Multimodal Large Language Models See, Remember and Recall Spaces", *arXiv Aug 2024*. [[Paper](https://arxiv.org/pdf/2412.14171)] [[Webpage](https://vision-x-nyu.github.io/thinking-in-space.github.io/)] [[Code](https://github.com/vision-x-nyu/thinking-in-space)]
+* **VSI-Bench** : "Thinking in Space:How Multimodal Large Language Models See, Remember and Recall Spaces", *arXiv Aug 2024*. [[Paper](https://arxiv.org/pdf/2412.12507)] [[Webpage](https://research.nvidia.com/labs/toronto-ai/3DGUT/)]
 
 
 ------------------------------
@@ -78,3 +86,6 @@ with Temporal Gaussian Hierarchy", *SIGGRAPH Asia 2024 (TOG)*, [[Paper](https://
 
 ------------------------------
 
+## 3D Data Synthesis
+
+* **MegaSynth**: "MegaSynth: scaling up feed-forward 3D scene reconstruction with synthesized scenes", *arxiv Dec 2024*. [[Paper](https://arxiv.org/pdf/2412.14166)] [[Webpage](https://hwjiang1510.github.io/MegaSynth/)] [[Code](https://github.com/hwjiang1510/MegaSynth)]
